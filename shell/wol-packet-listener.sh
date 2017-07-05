@@ -24,25 +24,22 @@
 # SOFTWARE.                                                                      #
 # ============================================================================== #
 #                                                                                #
-# DESCRIPTION : Simple program that forwards a packet to another node.           #
+# DESCRIPTION : Listens for an incoming packet.                                  #
 # AUTHOR : Donato Rimenti                                                        #
 # COPYRIGHT : Copyright (c) 2017 Donato Rimenti                                  #
 # LICENSE : MIT                                                                  #
 #                                                                                #
 # ============================================================================== #
 
-# Variables.
-bindingPort=9876
-bindingIp=$(hostname -I)
-targetIp=
-targetPort=
-logFile=
-
 # NOT YET TESTED
-# Waits for an incoming packet, logs it and forwards to the target.
-while true
-  do
-    packet=nc -k -l "$bindingPort"
-    logger -f /var/log/packet-forwarder.log "[$(date +"%Y-%m-%d %H:%M:%S,%3N)] Forwarding [$packet] from [$bindingIp:$bindingPort] to [$targetIp:$targetPort]"
-    echo "$packet" > nc -s "$bindingIp" -p "$bindingPort" "$targetIp" "$targetPort"
-  done
+
+# Variables.
+bindingPort=10
+fifo-file="/tmp/wpf/wol.fifo"
+
+#Creates a new queue.
+rm -f "$fifo-file"
+mkfifo "$fifo-file"
+
+# Waits for an incoming packet, and sends it to the forwarder.
+cat "$fifo-file" | wol-packet-forwarder.sh  2>&1 | nc -k -l "$bindingPort" > "$fifo-file"

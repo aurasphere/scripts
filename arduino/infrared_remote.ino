@@ -23,14 +23,13 @@
  */
 
 /**
- * Program which receives a TV command via Bluetooth and sends it
- * to the TV via infrared.
+ * Program which receives a NEC TV command via serial port and sends it
+ * to the TV through infrared.
  */
 #include <IRremote.h>
 
 IRsend irsend; // Object which handles infrared transmissions
 int irOutput = 3; // Infrared output pin
-int input = 2;  // Bluetooth pin
 int ledOutput = 4; // Check LED pin (not compulsory)
 char junk;
 String inputCommand;
@@ -44,7 +43,6 @@ unsigned long volumeDown = 0x2FD7887;
 
 void setup(){
   Serial.begin(9600);
-  pinMode(input, INPUT);
   pinMode(irOutput, OUTPUT);
   pinMode(ledOutput, OUTPUT);
 }
@@ -53,7 +51,7 @@ void loop() {
   if(Serial.available()){
      while(Serial.available())
     {
-      char inChar = (char)Serial.read(); //read the input
+      char inChar = (char) Serial.read(); //read the input
       inputCommand += inChar;        //make a string of the characters coming on serial
     }
       unsigned long commandToSend;

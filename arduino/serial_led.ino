@@ -23,16 +23,14 @@
  */
 
 /**
- * Program that reads a char incoming from Bluetooth connection and turns ON and OFF a led.
+ * Program that reads a char incoming from serial connection and turns ON and OFF a led.
  */
-int input = 2;  // Bluetooth pin
 int output = 3; // LED pin
 String inputString = "";
 char junk;
 
 void setup() {
   Serial.begin(9600);
-  pinMode(input, INPUT);
   pinMode(output, OUTPUT);
 }
 

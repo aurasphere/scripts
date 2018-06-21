@@ -34,5 +34,5 @@ border[0].style.borderColor = "#DAA520";
 
 /* The last function uses void to prevent returning any value */
 for (var i = 0; i < badges.length; i++) {
-	void(badges[i].style.borderColor = "#DAA520");
+    void(badges[i].style.borderColor = "#DAA520");
 }

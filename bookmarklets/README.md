@@ -10,4 +10,8 @@ Then you can execute the script just by clicking on the bookmark. For the script
 
  - **facebook_premium_bookmarklet.js** : changes the Facebook bar color to gold.
  - **facebook_rainbow_bookmarklet.js** : adds a rainbow animation to the Facebook bar.
+ 
+ ## LinkedIn
 
+ - **linkedin_premium_bookmarklet.js** : changes the LinkedIn bar color to gold.
+ - **linkedin_shockingpink_bookmarklet.js** : changes the LinkedIn bar color to pink.

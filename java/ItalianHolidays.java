@@ -111,7 +111,7 @@ import java.util.Calendar;
  * @author Donato Rimenti
  *
  */
-public class ItalianHolydays {
+public class ItalianHolidays {
 
 	/**
 	 * Formatter for the italian format "dd/MM/yyyy" (UNI EN 28601). <br>
@@ -224,22 +224,22 @@ public class ItalianHolydays {
 		/**
 		 * An instance of this object.
 		 */
-		private static final ItalianHolydays INSTANCE = new ItalianHolydays();
+		private static final ItalianHolidays INSTANCE = new ItalianHolidays();
 	}
 
 	/**
 	 * Private constructor for utility class.
 	 */
-	private ItalianHolydays() {
+	private ItalianHolidays() {
 	}
 
 	/**
-	 * Returns a new or an existing instance of this {@link ItalianHolydays}
+	 * Returns a new or an existing instance of this {@link ItalianHolidays}
 	 * object. This method is thread safe.
 	 * 
 	 * @return an existing or a new instance of this object
 	 */
-	public static ItalianHolydays getInstance() {
+	public static ItalianHolidays getInstance() {
 		return InstanceHolder.INSTANCE;
 	}
 

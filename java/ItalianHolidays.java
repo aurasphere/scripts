@@ -114,7 +114,7 @@ import java.util.Calendar;
 public class ItalianHolydays {
 
 	/**
-	 * Formatter for the italian format "dd/MM/YYYY" (UNI EN 28601). <br>
+	 * Formatter for the italian format "dd/MM/yyyy" (UNI EN 28601). <br>
 	 * <br>
 	 * <b>Access to this object must be synchronized externally since it's not
 	 * thread safe.</b> For this reason, it's not exposed by the public API. Use
@@ -122,10 +122,10 @@ public class ItalianHolydays {
 	 * instead.
 	 */
 	private final SimpleDateFormat ITALIAN_DATE_FORMAT = new SimpleDateFormat(
-			"dd/MM/YYYY");
+			"dd/MM/yyyy");
 
 	/**
-	 * Formatter for the italian short format "dd/MM/YY". <br>
+	 * Formatter for the italian short format "dd/MM/yy". <br>
 	 * <br>
 	 * <b>Access to this object must be synchronized externally since it's not
 	 * thread safe.</b> For this reason, it's not exposed by the public API. Use
@@ -133,7 +133,7 @@ public class ItalianHolydays {
 	 * instead.
 	 */
 	private final SimpleDateFormat ITALIAN_SHORT_DATE_FORMAT = new SimpleDateFormat(
-			"dd/MM/YY");
+			"dd/MM/yy");
 
 	/**
 	 * Fixed italian holidays in a year. This array contains all holidays except
@@ -477,13 +477,13 @@ public class ItalianHolydays {
 	}
 
 	/**
-	 * Formats a date in the italian format "dd/MM/YYYY" (UNI EN 28601). This
+	 * Formats a date in the italian format "dd/MM/yyyy" (UNI EN 28601). This
 	 * method is thread safe and guarded by the lock on
 	 * {@link #ITALIAN_DATE_FORMAT}.
 	 * 
 	 * @param date
 	 *            the date to format
-	 * @return a date formatted as a "dd/MM/YYYY" string
+	 * @return a date formatted as a "dd/MM/yyyy" string
 	 */
 	public String formatDateToItalianFormat(Calendar date) {
 		// No need to acquire the whole object lock. This also prevents
@@ -495,12 +495,12 @@ public class ItalianHolydays {
 	}
 
 	/**
-	 * Formats a date in the italian format "dd/MM/YY". This method is thread
+	 * Formats a date in the italian format "dd/MM/yy". This method is thread
 	 * safe and guarded by the lock on {@link #ITALIAN_SHORT_DATE_FORMAT}.
 	 * 
 	 * @param date
 	 *            the date to format
-	 * @return a date formatted as a "dd/MM/YY" string
+	 * @return a date formatted as a "dd/MM/yy" string
 	 */
 	public String formatDateToItalianShortFormat(Calendar date) {
 		// No need to acquire the whole object lock. This also prevents

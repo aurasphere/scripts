@@ -1,0 +1,31 @@
+<!-- 
+	Configuration file for installing Office365, Visio 2019 and Project 2019 
+	and activate them automatically on an x64 environment.
+	
+	Before using this configuration, replace "INSERT_KEY_HERE" with actual keys 
+	or remove the PIDKEY attribute altogether along with the AUTOACTIVATE 
+	property to use manual activation instead.
+	
+	To use this configuration, download the Office365 setup from the partnerzone
+	and run through the powershell the command: 
+	
+		setup.exe /configure PATH_TO_THIS_FILE
+-->
+
+<Configuration>
+
+  <Add OfficeClientEdition="64" Channel="Monthly">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+    </Product>
+    <Product ID="VisioPro2019Volume" PIDKEY="INSERT_KEY_HERE" >
+      <Language ID="en-us" />
+    </Product>
+	<Product ID="ProjectPro2019Volume" PIDKEY="INSERT_KEY_HERE" >
+      <Language ID="en-us" />
+    </Product>
+  </Add>
+
+  <Property Name="AUTOACTIVATE" Value="1" />
+
+</Configuration>

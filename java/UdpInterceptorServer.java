@@ -1,5 +1,3 @@
-package co.aurasphere.scripts;
-
 /*
  * MIT License
  *
@@ -23,6 +21,9 @@ package co.aurasphere.scripts;
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
+
+package co.aurasphere.scripts;
+
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;

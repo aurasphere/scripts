@@ -310,7 +310,7 @@
             <regex>.+</regex>
             <example>simpleParameter</example>
             <text>/**
- * @param ${e} the ${e.rsfl()}
+ * @param ${e} the {@link #${e}}
  */</text>
             <childTemplates/>
         </parameterTemplate>

@@ -318,7 +318,7 @@
             <regex>IOException</regex>
             <example>IOException</example>
             <text>/**
- * @throws ${e} Signals that an I/O exception has occurred.
+ * @throws ${e}
  */</text>
             <childTemplates/>
         </exceptionTemplate>
@@ -326,7 +326,7 @@
             <regex>.+</regex>
             <example>ExampleException</example>
             <text>/**
- * @throws ${e} the ${e.sfl()}
+ * @throws ${e}
  */</text>
             <childTemplates/>
         </exceptionTemplate>

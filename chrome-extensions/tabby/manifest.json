@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Tabby",
+  "version": "1.0",
+  "description": "An extension that logs tab updates and injects some Javascript in all visited pages",
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "permissions": ["tabs"],
+ 
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["inject.js"],
+      "all_frames": true,
+      "run_at": "document_start"
+    }
+  ]
+}

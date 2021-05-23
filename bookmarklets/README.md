@@ -1,10 +1,8 @@
 # Bookmarklets
 
-In order to use the following bookmarklets, add a new bookmark with URL set to
+In order to use the following bookmarklets, you can compile them via a tool like [YourJS](https://www.yourjs.com/bookmarklet/).
     
-    javascript:<code_copy_pasted_from_js_file>
-    
-Then you can execute the script just by clicking on the bookmark. For the script to work, you will have to already be on the page it manipulates (e.g. www.facebook.com for Facebook's bookmarklets).
+After that, you can execute the script just by clicking on the bookmark. For the script to work, you will have to already be on the page it manipulates (e.g. www.facebook.com for Facebook's bookmarklets).
 
 ## Facebook
 
@@ -15,3 +13,6 @@ Then you can execute the script just by clicking on the bookmark. For the script
 
  - **linkedin_premium_bookmarklet.js** : changes the LinkedIn bar color to gold.
  - **linkedin_shockingpink_bookmarklet.js** : changes the LinkedIn bar color to pink.
+
+## Google Meet
+ - **STFU** : automatically mutes your microphone when somebody else is speaking to avoid talking over each other. It must be clicked (or reclicked) after all the participants have joined the meeting.

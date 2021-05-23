@@ -15,4 +15,4 @@ After that, you can execute the script just by clicking on the bookmark. For the
  - **linkedin_shockingpink_bookmarklet.js** : changes the LinkedIn bar color to pink.
 
 ## Google Meet
- - **STFU** : automatically mutes your microphone when somebody else is speaking to avoid talking over each other. It must be clicked (or reclicked) after all the participants have joined the meeting.
+ - **google_meet_stfu_bookmarklet.js** : automatically mutes your microphone when somebody else is speaking to avoid talking over each other. It must be clicked (or reclicked) after all the participants have joined the meeting.

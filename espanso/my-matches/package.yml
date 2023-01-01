@@ -1,0 +1,19 @@
+matches:
+  - trigger: ":ln pt:"
+    replace: "Salve,\ngrazie per avermi contattato. Al momento valuto solo collaborazioni part time in partita IVA da remoto. Se la sua opportunità è compatibile possiamo parlarne.\nBuona giornata"
+  - trigger: ":ln pt eng:"
+    replace: "Hello,\nthanks for contacting me. At the moment I'm only considering part time collaborations as a remote independent contractor. If your opportunity is compatible we can talk about it.\nLet me know and have a nice day"
+  - trigger: ":ln no:"
+    replace: "Salve,\ngrazie per avermi contattato ma al momento non sono interessato. Magari in futuro.\nBuona giornata"
+  - trigger: ":ln no eng:"
+    replace: "Hello,\nthanks for contacting me but I'm not interested at the moment. Maybe in the future.\nHave a nice day"
+  - regex: ":md5\\((?P<string>.*)\\):"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/match/packages/my-matches/md5.py"
+

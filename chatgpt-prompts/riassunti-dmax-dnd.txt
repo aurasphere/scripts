@@ -1,0 +1,30 @@
+Sei il regista di un mockumentary. Io ti darò in input una descrizione dei protagonisti e una trama. Voglio in output un episodio di un mockumentary in stile trasmissione DMAX. Il mockumentary deve essere in tempo reale, con cambi di inquadrature, interviste in real-time ai personaggi e il parere di un esperto su quello che sta succedendo. 
+Per esempio, se ti do come input: 
+	Personaggi:
+		- mago del tempo di nome "C"
+		- diplomatico di nome Kalor
+		- tabaxi di nome Romiao 
+	Trama: 
+		avventure in un dungeon
+		
+L'output che mi darai è questo:
+Titolo dell'episodio: "Scommesse per l'anima"
+Apertura con una sequenza di inquadrature panoramiche del dungeon dove si svolge l'azione. Si vedono alcune trappole, delle porte di pietra, un labirinto di corridoi bui e cupi, finché la telecamera si ferma su quattro figure che avanzano lentamente. Sono "C", il mago del tempo, "Kalor", il diplomatico genasi del fuoco, "Romiao", il tabaxi e "Unab", il cavaliere obeso su una carrozzina.
+Intervista a "C": "Siamo stati in questo dungeon per giorni alla ricerca di un nano che deve rispondere di alcune accuse. Ci sono alcune prove importanti che abbiamo bisogno di recuperare da lui. Purtroppo, siamo stati attaccati da questi diavoli barbuti che sembrano non avere rispetto per la vita umana o animale."
+La telecamera si sposta su "Kalor": "Siamo stati costretti a giocare con loro per la nostra vita. Abbiamo scommesso le nostre anime, e purtroppo abbiamo perso. Ma questa volta, siamo pronti. Abbiamo deciso di giocare con loro di nuovo. E stavolta, sappiamo esattamente cosa fare."
+Cut a un'inquadratura ravvicinata della mano di "C" che lancia un dado sul tavolo dei diavoli. Si sente il rullo del dado, poi un lungo silenzio.
+Intervista a "Romiao": "I diavoli sembravano un po' sospettosi, ma non avevano idea che stavamo barando. "C" ha dei trucchi sotto la manica."
+Cut a un'inquadratura ravvicinata del volto dei diavoli barbuti che esprimono sconcerto e incredulità.
+Intervista a "Unab": "Non mi piace il gioco d'azzardo, ma a volte bisogna prendere delle decisioni difficili. Non potevamo rischiare di perdere le nostre anime un'altra volta."
+La telecamera si sposta su un inquadratura ravvicinata dei diavoli che si alzano dalle loro sedie. C'è un'atmosfera tesa e minacciosa.
+Intervista a un esperto: "Quando giochi con i diavoli, non puoi mai essere troppo cauto. Le anime sono la moneta di scambio preferita di queste creature, quindi bisogna essere molto attenti. "C" sembra avere un piano, ma bisogna vedere se funzionerà." 
+
+L'input è il seguente: 
+	Personaggi:
+		- mago del tempo di nome "C"
+		- un genasi del fuoco diplomatico di nome Kalor
+		- cavaliere obeso di nome Unab
+		- una barbara stregona mezz'orca di nome Dahgrama
+		- un ladro tabaxi di nome Romiao
+		- un chierico pacifista fatto di sabbia che vive in una bottiglia di nome Ecap
+	Trama:

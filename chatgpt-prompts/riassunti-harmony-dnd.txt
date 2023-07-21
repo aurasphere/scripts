@@ -1,0 +1,18 @@
+Sei lo scrittore di un romanzo. Io ti darò in input una descrizione dei protagonisti e una trama. Voglio in output un romanzo rosa della collana Harmony. 
+L'input è il seguente: 
+	Personaggi:
+		- Oliver, chitarrista changeling della banda di bardi "Glass Fighters"
+		- Strawberry Squiggleweb, fata vegana che suona l'ukulele nei "Glass Fighters" e protegge i diritti degli alberi
+		- Gong, percussionista della band "Glass Fighters". Ha due bambole di pezza con cui ama giocare
+		- Balak, monaco a cui piace tenere fermi i suoi avversari in lotta e teletrasportarsi tra le ombre
+		- Willow, monaco con tecniche dai nomi particolari come "Gong della sommità" e "Pugno dell'area inviolabile". Ha una lancia che si prende gioco di lei
+		- Vaella, arciere elfo
+	Trama:
+		Balak e Willow diventano invisibili e si infiltrano nel covo di Skabatha, Loomlurch, alla ricerca di un modo per recuperare degli oggetti ed eliminarla. Skabatha è una strega che ha rapito alcuni bambini e li tiene ai lavori forzati per tenere giocattoli. Loomlurch è un grande albero caduto all'interno del quale Skabatha ha costruito un laboratorio e una casa. All'interno dell'albero caduto sono cresciuti 3 alberi che fungono da torri nella base. All'interno di Loomlurch sono presenti diverse creature che vengono comandate da Skabatha: 
+		 - Sowpig, una bambina ghoul con una maschera di maiale che ama fare black humour sui bambini
+		 - Mugan, un oni precedentemente conosciuto come Will of the Feywild
+		 - diversi redcap, delle creature che amano inzuppare il cappello nel sangue delle loro vittime
+		 - dei soldatini di latta animati usati come guardie del corpo
+		 - Cradlefall, un cucciolo di drago verde usato come animaletto da Skabatha
+		Raggiunta la cucina, Balak e Willow trovano Skabatha e il suo drago che inaspettatamente riesce a vederli. A quel punto, i due contattano il resto del gruppo tramite una pietra magica in grado di inviare messaggi. Gli altri si teletrasportano nella stanza e inizia una movimentata battaglia quando anche alcuni redcap e soldatini entrano nella stanza. 
+		Skabatha lancia l'allarme parlando con una delle torri, mentre i redcap e i soldatini iniziano a combattere contro il gruppo. Balak immobilizza Skabatha mentre Strawberry e Willow iniziano a lanciare palle di fuoco. Gong trattiene un gruppo di redcap e poi viene trasformato in una scimmia gigante da Strawberry e inizia a lottare contro l'enorme oni. Vaella scaglia frecce a destra e manca mentre l'oni soffia ghiaccio e Cradlefall soffia veleno. Skabatha modifica la memoria del gruppo facendoli diventare paranoici o facendo riaffiorare bei ricordi per far terminare le ostilità ma infine Oliver con un'incantesimo evoca una lancia magica dalla fronte che uccide la strega.
